@@ -1,5 +1,5 @@
 
-import { Github, Linkedin, Twitter, Instagram } from "lucide-react";
+import { Github, Linkedin } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface SocialLinksProps {
@@ -17,16 +17,6 @@ export default function SocialLinks({ className }: SocialLinksProps) {
       name: "LinkedIn", 
       url: "https://linkedin.com", 
       icon: Linkedin 
-    },
-    { 
-      name: "Twitter", 
-      url: "https://twitter.com", 
-      icon: Twitter 
-    },
-    { 
-      name: "Instagram", 
-      url: "https://instagram.com", 
-      icon: Instagram 
     }
   ];
 
